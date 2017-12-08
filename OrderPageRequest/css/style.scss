@@ -1,0 +1,372 @@
+$color1: #FF3556;
+$color2: #E930D9;
+$color3: #7D30E9;
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+    background-color: #F2F2F2;
+}
+a:link {
+  text-decoration: none;
+}
+.head {
+  width: 100%;
+  background: url("../img/bg_logo.png") no-repeat;
+  background-size: 100% 100%;
+  // background-color: #777777;
+}
+.topsee {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+}
+.toplink {
+  width: 100%;
+}
+
+.toplink ul {
+  margin: 1rem 0;
+  list-style-type: none;
+  padding: 0;
+}
+.toplink ul li {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+.toplink ul li a {
+  color: #808080;
+}
+#li3 {
+  background-color: #CAA752;
+  padding: 0.15rem;
+  color: #fff;
+  border-radius: 6%;
+}
+#li4::before {
+    content: url("../img/phone_03.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+.topsearch {
+  max-width: 500px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.topsearch img {
+  margin-top: 1.7rem;
+  margin-bottom: 1rem;
+  width: 35%;
+  position: relative;
+}
+.input {
+  width: 78%;
+  position: relative;
+  margin: 0 auto;
+}
+.input img {
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  z-index: 2;
+  right: 0.5rem;
+  top: -1.5rem;
+}
+.topsearch input {
+  position: relative;
+  width: 100%;
+  background-color: #434343;
+  height: 3rem;
+  border: none;
+  border-radius: 3px;
+  padding-left: 1rem;
+  padding-right: 4rem;
+  z-index: 1;
+  font-size: 1.6rem;
+}
+.topsearch p {
+  margin: 1rem 0 1.5rem;
+  color: #808080;
+  font-size: 1.6rem;
+}
+.topsearch p a {
+  color: #808080
+}
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.maintop {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.maintop li {
+  display: inline-block;
+  margin-right: 6%;
+  font-size: 1.7rem
+}
+.maintop li:first-child {
+  margin-left: 2%;
+}
+.maintop li:last-child {
+  margin-right: 2%;
+}
+.maintop li a {
+  color: #000000;
+  font-weight: bold;
+}
+.content {
+  padding: 0 2rem;
+}
+.left {
+  display: inline-block;
+  width: 55%;
+}
+.leftlink {
+  margin-top: 0.6rem;
+}
+.leftlink a {
+  color: #707070;
+  font-weight: bold;
+}
+.l_img_left {
+  display: inline-block;
+  width: 20%;
+  vertical-align: middle;
+  text-align: center;
+}
+.imgpre, .imgnext {
+  text-align: center;
+  padding: 2rem;
+}
+.leftimgul {
+  width: 100%;
+  list-style-type: none;
+}
+.leftimgul li {
+  width: 100%;
+}
+.leftimgul li a {
+  display: block;
+  padding: 0.3rem;
+  width: 100%;
+}
+.leftimgul li a img {
+  width: 100%;
+}
+.l_img_right {
+  display: inline-block;
+  width: 75%;
+  vertical-align: middle;
+  text-align: center;
+}
+.p1 {
+  font-size: 1.7rem;
+  color: #707070;
+}
+.p2 {
+  font-size: 1.7rem;
+  color: #BBBBBB;
+}
+.imggroups2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.imgbox2 {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+.imgbox2_img {
+  border: 2px solid #F0F0F0;
+  margin-bottom: 1rem;
+}
+.imgbox2_img a {
+  display: block;
+}
+.imgbox2_img a img {
+  width: 100%;
+  height: 8rem;
+}
+.right {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+.p01 {
+  font-size: 1.6rem;
+}
+.p02 {
+  font-size: 5rem;
+}
+.p03 {
+  font-size: 1.37rem;
+  color: #707070;
+}
+.p04 {
+  font-size: 1.55rem;
+  color: #333333;
+}
+.add {
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.add1 {
+  display: inline-block;
+}
+.add1 a {
+  display: inline-block;
+  color: #000000;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0 .5rem;
+  vertical-align: middle;
+}
+.add1-1 {
+  display: inline-block;
+  border: 1px solid black;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.add2 {
+  display: inline-block;
+  width: 8rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background-color: #CAA752;
+  margin-left: 1rem;
+}
+.add2 a {
+  color: #fff;
+}
+.add3 {
+  display: inline-block;
+  width: 6rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  margin-left: 1rem;
+  border: 1px solid #CAA752;
+  font-weight: bold;
+}
+.add3 a {
+  color: #CAA752;
+}
+.right dl dt {
+  font-size: 1.55rem;
+  color: #333333;
+  padding: 0;
+  margin: 0;
+}
+.right dl dd {
+  padding-left: 3rem;
+  font-size: 1.37rem;
+  color: #707070;
+  margin: 0;
+}
+.radius {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #959595;
+  float: left;
+  margin-top: .5rem;
+  margin-right: .7rem;
+}
+.before1::before {
+  content: url(../img/kefu_1.png);
+  display: inline-block;
+  vertical-align: middle;
+}
+.before2::before {
+  content: url(../img/kefu_2.png);
+  display: inline-block;
+  vertical-align: middle;
+}
+.before3::before {
+  content: url(../img/zunxiang.png);
+  display: inline-block;
+  vertical-align: middle;
+}
+.imggroup {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2F2F2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.mainbottom {
+  max-width: 960px;
+  background-color: #12161C;
+  margin: 0 auto;
+}
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_box {
+  display: inline-block;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-right: 1px solid #1D242E;
+  text-align: center;
+  flex: 1;
+}
+@media screen and (max-width: 768px) {
+  .left {
+    display: block;
+    width: 100%;
+  }
+  .right {
+    display: block;
+    width: 100%;
+  }
+  .l_img_left {
+    display: block;
+    width: 100%;
+  }
+  .l_img_right {
+    display: block;
+    width: 100%;
+  }
+  .leftimgs {
+    width: 100%;
+  }
+  .imgpre {
+    display: inline-block;
+    width: 15%;
+  }
+  .imgnext {
+    display: inline-block;
+    width: 15%;
+  }
+  .leftimgul {
+    display: inline-block;
+    width: 60%;
+  }
+  .leftimgul li {
+    float: left;
+    width: 20%;
+    margin: 2.2%;
+    vertical-align: middle;
+  }
+}
